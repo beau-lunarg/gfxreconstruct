@@ -137,7 +137,7 @@ jobs:
         config:
           - {
             name: "Windows MSVC Release",
-            os: windows-latest,
+            os: windows-2025-vs2026,
             artifact: "gfxreconstruct-dev-windows-msvc-release",
             test_failure_artifact: "gfxreconstruct-dev-test-failure-windows-msvc-release",
             type: "release",
@@ -146,7 +146,7 @@ jobs:
           }
           - {
             name: "Windows MSVC Debug",
-            os: windows-latest,
+            os: windows-2025-vs2026,
             artifact: "gfxreconstruct-dev-windows-msvc-debug",
             test_failure_artifact: "gfxreconstruct-dev-test-failure-windows-msvc-debug",
             type: "debug",
